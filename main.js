@@ -9,8 +9,8 @@ CANVAS_WIDTH = canvas.width = window.innerWidth + 20;
 
 const shark = new Image();
 shark.src = 'shark.png';
-shark.width = (shark.width/4);
-shark.height = (shark.height/4);
+shark.width = (shark.width/2);
+shark.height = (shark.height/2);
 
 let shark_x = CANVAS_WIDTH - (shark.width/2);
 let shark_y = (CANVAS_HEIGT - shark.height) / 2;
